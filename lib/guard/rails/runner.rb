@@ -44,7 +44,7 @@ module Guard
     end
 
     def pid_file
-      File.expand_path("tmp/pids/#{options[:environment]}.pid")
+      File.expand_path("test/dummy/tmp/pids/#{options[:environment]}.pid")
     end
 
     def pid
